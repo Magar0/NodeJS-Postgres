@@ -49,6 +49,44 @@ const Address = sequelize.define("Address", {
 
 ## Set-Up
 
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+- postgres server
+
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/Magar0/NodeJS-Postgres.git
+cd NodeJS-Postgres
+```
+
+** env Setup
+```bash
+DATABASE_NAME="your_database_name"
+DATABASE_USERNAME="your_database_username"
+DATABASE_PASSWORD="your_database_password"
+```
+
+**Installation**
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+**Running the Project**
+
+```bash
+node server.js
+```
 
 
 ## Endpoints
@@ -66,9 +104,9 @@ const Address = sequelize.define("Address", {
 
 ```json
 {
-  "name": "John Doe",
-  "addressLine": "123 Main St",
-  "city": "Springfield",
-  "state": "IL"
+  "name": "String",
+  "addressLine": "String",
+  "city": "String",
+  "state": "String",
 }
 ```
